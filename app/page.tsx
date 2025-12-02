@@ -366,8 +366,8 @@ export default function HomePage() {
                     <span className="text-sm text-gray-500">({product.reviews} reviews)</span>
                   </div>
                   <div className="flex items-center gap-2" itemProp="offers" itemScope itemType="https://schema.org/Offer">
-                    <span className="text-xl text-[#03120e]" itemProp="price">₹{product.price}</span>
-                    <span className="text-sm text-gray-500 line-through">₹{product.originalPrice}</span>
+                    <span className="text-xl text-[#03120e]" itemProp="price">SGD {product.price}</span>
+                    <span className="text-sm text-gray-500 line-through">SGD {product.originalPrice}</span>
                     <meta itemProp="priceCurrency" content="INR" />
                   </div>
                 </CardContent>

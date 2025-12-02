@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Mail, Phone, MapPin, Linkedin } from 'lucide-react';
 import { Button } from './button';
 import { Input } from './input';
 
@@ -44,7 +44,8 @@ export function Footer() {
               {[
                 { icon: Facebook, href: "#" },
                 { icon: Instagram, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Linkedin, href: "#" },
+                { icon: Mail, href: "#" },
               ].map((social, index) => (
                 <a
                   key={index}
