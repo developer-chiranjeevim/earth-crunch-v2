@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Mail, Phone, MapPin } from 'lucide-react';
 import { Button } from './button';
 import { Input } from './input';
 
@@ -44,8 +44,7 @@ export function Footer() {
               {[
                 { icon: Facebook, href: "#" },
                 { icon: Instagram, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Mail, href: "#" },
+                { icon: Twitter, href: "#" },
               ].map((social, index) => (
                 <a
                   key={index}
@@ -107,8 +106,8 @@ export function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-[#3e505b] mt-0.5 flex-shrink-0" />
                 <div className="text-[#b5cfc9]">
-                  <div>123 Earth Crunch Online Store</div>
-                  <div>Singapore</div>
+                  <div>Earth Crunch</div>
+                  <div>Madurai, Tamil Nadu 625001</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -119,7 +118,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-[#3e505b] flex-shrink-0" />
-                <a href="mailto:hello@earthcrunch.com" className="text-[#b5cfc9] hover:text-white transition-colors">
+                <a href="mailto:hello@heritagesnacks.com" className="text-[#b5cfc9] hover:text-white transition-colors">
                   hello@earthcrunch.com
                 </a>
               </div>
@@ -137,7 +136,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#8ab0ab]">
             <div>
-              © 2024 Earth Crunch. All rights reserved.
+              © 2024 Earth Crunch Snacks. All rights reserved.
             </div>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
