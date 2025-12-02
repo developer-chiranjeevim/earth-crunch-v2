@@ -188,12 +188,14 @@ export default function HomePage() {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  className="bg-[#26413c] hover:bg-[#1a1d1a] text-white px-8 py-6 text-lg group"
-                >
-                  Shop Now
-                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <a href="https://app.earthcrunchonlinestore.com/" className="">
+                  <Button 
+                    className="bg-[#26413c] hover:bg-[#1a1d1a] text-white px-8 py-6 text-lg group"
+                  >
+                    Shop Now
+                    <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </a>
                 <Button 
                   variant="outline"
                   className="border-[#26413c] text-[#26413c] hover:bg-gray-50 px-8 py-6 text-lg"
